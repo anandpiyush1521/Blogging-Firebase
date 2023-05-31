@@ -16,6 +16,14 @@ app.get('/editor', (req, res) => {
     res.sendFile(path.join(initial_path, "editor.html"));
 })
 
+app.get('/login', (req, res) => {
+    res.sendFile(path.join(initial_path, "login.html"));
+})
+
+app.get('/register', (req, res) => {
+    res.sendFile(path.join(initial_path, "register.html"));
+})
+
 // upload link
 app.post('/upload', (req, res) => {
     let file = req.files.image;
