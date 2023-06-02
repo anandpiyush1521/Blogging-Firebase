@@ -24,6 +24,10 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(initial_path, "register.html"));
 })
 
+app.get('/logOut', (req, res) => {
+    res.sendFile(path.join(initial_path, "home.html"));
+})
+
 // upload link
 app.post('/upload', (req, res) => {
     let file = req.files.image;

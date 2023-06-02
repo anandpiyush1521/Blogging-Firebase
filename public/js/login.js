@@ -64,6 +64,19 @@ var firebaseConfig = {
   function getId(id) {
     return document.getElementById(id).value;
   }
+
+  function SignOut() {
+    auth.signOut()
+      .then(() => {
+        // Successful sign-out
+        // Redirect to desired page or perform other actions
+        window.open("home.html", "_self");
+      })
+      .catch((error) => {
+        // Handle any errors
+        console.log(error.message);
+      });
+  }
   
   
   
