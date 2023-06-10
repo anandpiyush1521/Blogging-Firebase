@@ -1,5 +1,9 @@
 <h1>Blogging-Firebase</h1>
 
+<a href="https://firebase.google.com/">
+  <img src="https://img.shields.io/badge/Powered_by-Firebase-orange?style=for-the-badge&logo=firebase" alt="Powered by Firebase">
+</a>
+
 <p align="center">
   <img src="public\assets\Snap4.png" width="5000">
 </p>
